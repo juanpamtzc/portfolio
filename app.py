@@ -86,9 +86,9 @@ with st.container():
     with proj_col2:
         st.markdown("#### 🔴 🔵 Blue vs. Red: Expected Utility Optimizer")
         st.markdown("""
-        **🧠 A late-night bachelor party thought experiment, formalized into a rigorous computational model.** This interactive dashboard computes expected utility under existential risk, balancing self-preservation against the greater good. 
+        **A late-night bachelor party thought experiment, formalized into a rigorous computational model.** This interactive dashboard computes expected utility under existential risk, balancing self-preservation against the greater good. 
         
-        *Launch the live simulator below to dial in your own assumptions about human nature. Does the mathematical optimum match your moral intuition? ⚖️*
+        *Try it out! Does the mathematical optimum match your moral intuition?*
         """)
         
         # Link directly to the streamlit app
