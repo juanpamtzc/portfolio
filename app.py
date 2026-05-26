@@ -17,9 +17,9 @@ with st.container():
         st.markdown("# Hi, I'm Juan Pablo Martínez Cordeiro.")
         st.markdown("### I chase my curiosity building scalable, mathematically rigorous computational models along the way.")
         st.write("""
-        I am a computational mathematician and data scientist transitioning from academia to industry. 
-        I specialize in turning abstract game-theoretic concepts and numerical optimization problems 
-        into highly scalable, vectorized software architecture.
+        I am a computational scientist and mechanical engineer transitioning taking the next steps after completing my Ph.D. 
+        This portfolio has more information about myself, my papers, my interests, and my projects.
+        Feel free to connect and let me know what you think!
         """)
         
         # Call to Action buttons
