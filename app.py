@@ -81,7 +81,7 @@ with st.container():
     
     with proj_col1:
         # We can update this screenshot later just like we did the profile picture!
-        st.image("https://placehold.co/600x400?text=App+Screenshot", use_container_width=True)
+        st.image("assets/red_vs_blue_viz.png", use_container_width=True)
         
     with proj_col2:
         st.markdown("#### 🔵 Blue vs. Red: Game-Theoretic Optimizer")
