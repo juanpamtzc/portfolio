@@ -2,7 +2,7 @@ import streamlit as st
 
 st.set_page_config(page_title="My Portfolio", layout="centered")
 
-st.title("Computational Mathematics Portfolio")
+st.title("Computational Portfolio")
 st.write("Welcome. I build scalable, mathematically rigorous computational models.")
 
 st.divider()
@@ -17,7 +17,7 @@ import streamlit as st
 
 # 1. Page Configuration (Set to 'wide' for a modern website feel)
 st.set_page_config(
-    page_title="John Doe | Computational Mathematician", 
+    page_title="Juan Pablo Martínez Cordeiro | PhD in Computational Thermal Fluid Systems", 
     page_icon="📐", 
     layout="wide",
     initial_sidebar_state="expanded"
@@ -29,7 +29,7 @@ with st.container():
     col1, col2 = st.columns([3, 1], gap="large")
     
     with col1:
-        st.markdown("# Hi, I'm [Your Name].")
+        st.markdown("# Hi, I'm Juan Pablo Martínez Cordeiro.")
         st.markdown("### I build mathematically rigorous computational models.")
         st.write("""
         I am a computational mathematician and data scientist transitioning from academia to industry. 
@@ -40,9 +40,9 @@ with st.container():
         # Call to Action buttons
         cta_col1, cta_col2, cta_col3 = st.columns([1, 1, 3])
         with cta_col1:
-            st.link_button("👔 LinkedIn", "https://linkedin.com/in/yourprofile", use_container_width=True)
+            st.link_button("👔 LinkedIn", "www.linkedin.com/in/jpmc-143912-", use_container_width=True)
         with cta_col2:
-            st.link_button("💻 GitHub", "https://github.com/yourusername", use_container_width=True)
+            st.link_button("💻 GitHub", "https://github.com/juanpamtzc", use_container_width=True)
 
     with col2:
         # A circular or clean profile image looks much more professional
@@ -60,8 +60,8 @@ with st.container():
     with skill_col1:
         st.markdown("#### 📐 Mathematics")
         st.markdown("""
-        * Game Theory & Mechanism Design
-        * Numerical Optimization
+        * Computational Nanofluidics and Statistical Mechanics
+        * Numerical Methods
         * Stochastic Modeling
         * Linear Algebra
         """)
@@ -110,4 +110,4 @@ with st.container():
 
 # 5. Footer
 st.markdown("<br><br>", unsafe_allow_html=True)
-st.caption("© 2024 [Your Name]. Built with Python and Streamlit.")
+st.caption("© 2024 Juan Pablo Martínez Cordeiro. Built with Python and Streamlit.")
