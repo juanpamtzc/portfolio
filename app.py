@@ -1,23 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="My Portfolio", layout="centered")
-
-st.title("Computational Portfolio")
-st.write("Welcome. I build scalable, mathematically rigorous computational models.")
-
-st.divider()
-
-# Project 1 Entry
-st.subheader("🔵 Blue vs. Red: Game-Theoretic Optimizer")
-st.write("A vectorized expected utility model computing survival strategies under existential risk.")
-st.link_button("Launch Simulator", "https://red-vs-blue.streamlit.app/#2-parameter-space-sweep")
-st.link_button("View Source Code", "https://github.com/juanpamtzc/red_vs_blue")
-
-import streamlit as st
-
 # 1. Page Configuration (Set to 'wide' for a modern website feel)
 st.set_page_config(
-    page_title="Juan Pablo Martínez Cordeiro | PhD in Computational Thermal Fluid Systems", 
+    page_title="Juan Pablo Martínez Cordeiro, Ph.D. | Computational Scientist and Mechanical Engineer", 
     page_icon="📐", 
     layout="wide",
     initial_sidebar_state="expanded"
@@ -30,7 +15,7 @@ with st.container():
     
     with col1:
         st.markdown("# Hi, I'm Juan Pablo Martínez Cordeiro.")
-        st.markdown("### I build mathematically rigorous computational models.")
+        st.markdown("### I chase my curiosity building scalable, mathematically rigorous computational models along the way.")
         st.write("""
         I am a computational mathematician and data scientist transitioning from academia to industry. 
         I specialize in turning abstract game-theoretic concepts and numerical optimization problems 
