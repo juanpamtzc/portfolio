@@ -84,13 +84,18 @@ with st.container():
         st.image("assets/red_vs_blue_viz.png", use_container_width=True)
         
     with proj_col2:
-        st.markdown("#### 🔵 Blue vs. Red: Game-Theoretic Optimizer")
-        st.write("""
-        A high-performance interactive dashboard computing expected utility under existential risk scenarios. 
-        Engineered with $O(N)$ computational complexity using pure `numpy` broadcasting, bypassing the need 
-        for slow iterative loops, and verified against strict closed-form analytical solutions.
+        st.markdown("#### 🔴 🔵 Blue vs. Red: Expected Utility Optimizer")
+        st.markdown("""
+        **🧠 A late-night bachelor party thought experiment, formalized into a rigorous computational model.** This interactive dashboard computes expected utility under existential risk, balancing self-preservation against the greater good. 
+        
+        * 🗳️ **The Premise:** A population-scale dilemma where crossing a voting threshold triggers elimination.
+        * ⚡ **The Engine:** Engineered with O(N) computational complexity using pure `numpy` broadcasting, bypassing slow iterative loops.
+        * ✅ **The Rigor:** Outputs are fully verified against strict closed-form analytical solutions.
+        
+        *Launch the live simulator below to dial in your own assumptions about human nature. Does the mathematical optimum match your moral intuition? ⚖️*
         """)
         
+        # Link directly to the streamlit app
         st.link_button("Launch Live Simulator", "https://red-vs-blue.streamlit.app")
 
 # 5. Footer
