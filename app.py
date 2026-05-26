@@ -88,10 +88,6 @@ with st.container():
         st.markdown("""
         **🧠 A late-night bachelor party thought experiment, formalized into a rigorous computational model.** This interactive dashboard computes expected utility under existential risk, balancing self-preservation against the greater good. 
         
-        * 🗳️ **The Premise:** A population-scale dilemma where crossing a voting threshold triggers elimination.
-        * ⚡ **The Engine:** Engineered with O(N) computational complexity using pure `numpy` broadcasting, bypassing slow iterative loops.
-        * ✅ **The Rigor:** Outputs are fully verified against strict closed-form analytical solutions.
-        
         *Launch the live simulator below to dial in your own assumptions about human nature. Does the mathematical optimum match your moral intuition? ⚖️*
         """)
         
