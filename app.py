@@ -40,7 +40,7 @@ with st.container():
         # Call to Action buttons
         cta_col1, cta_col2, cta_col3 = st.columns([1, 1, 3])
         with cta_col1:
-            st.link_button("👔 LinkedIn", "www.linkedin.com/in/jpmc-143912-", use_container_width=True)
+            st.link_button("👔 LinkedIn", "https://www.linkedin.com/in/jpmc-143912-/", use_container_width=True)
         with cta_col2:
             st.link_button("💻 GitHub", "https://github.com/juanpamtzc", use_container_width=True)
 
