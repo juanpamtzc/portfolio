@@ -91,7 +91,7 @@ with st.container():
         for slow iterative loops, and verified against strict closed-form analytical solutions.
         """)
         
-        st.link_button("Launch Live Simulator", "https://yourname-blue-vs-red.streamlit.app")
+        st.link_button("Launch Live Simulator", "https://red-vs-blue.streamlit.app")
 
 # 5. Footer
 st.markdown("<br><br>", unsafe_allow_html=True)
