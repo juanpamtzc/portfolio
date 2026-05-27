@@ -2,8 +2,7 @@ import streamlit as st
 
 # 1. Page Configuration
 st.set_page_config(
-    page_title="Juan Pablo Martínez Cordeiro, Ph.D. | Computational Scientist & Mechanical Engineer", 
-    page_icon="📐", 
+    page_title="JP Martínez Cordeiro | Computational Scientist & Mechanical Engineer", 
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -13,11 +12,13 @@ with st.container():
     col1, col2 = st.columns([3, 1], gap="large")
     
     with col1:
-        st.markdown("# Juan Pablo Martínez Cordeiro | Computational Scientist & Mechanical Engineer")
+        st.markdown("# Juan Pablo Martínez Cordeiro")
+        st.markdown("#Computational Scientist | Mechanical Engineer")
         st.markdown("### Chasing curiosity and building scalable, rigorous computational models along the way.")
         st.write("""
         __Hi, I'm Juan Pablo Martínez Cordeiro__, a computational scientist and mechanical engineer taking the next steps in my career 
-        after completing my Ph.D. from UT Austin.\
+        after completing my Ph.D. from UT Austin.""")
+        st.write("""
         This portfolio contains more information about myself, my papers, 
         my interests, and my projects. Feel free to connect and let me know what you think!
         """)
