@@ -115,7 +115,7 @@ st.divider()
 
 # 4.5 Upcoming Projects Section
 with st.container():
-    st.markdown("### 🚀 In the Pipeline")
+    st.markdown("### In Progress...")
     st.write("A sneak peek at the computational projects currently cooking in my local development environment.")
     
     # Create two columns for your upcoming projects
@@ -129,7 +129,7 @@ with st.container():
         * ⚙️ **The Challenge:** Traditional geometric optimization of heat dissipation fins requires computationally expensive fluid dynamics iterations in OpenFOAM.
         * 🧠 **The Approach:** Training a data-driven surrogate model (Neural Network) on a physics-backed dataset to predict thermal profiles in milliseconds.
         
-        `Status: Architecture Design & Data Collection 🛠️`
+        🚧 *Status: Architecture Design & Data Collection* 🚧
         """)
         
     with pipe_col2:
@@ -140,7 +140,7 @@ with st.container():
         * 📊 **The Challenge:** F1 cars broadcast asynchronous, noisy telemetry across independent channels (Speed, Throttle, Brake, RPM) [cite: 2], closely mirroring the chaotic structure of high-frequency financial market logs[cite: 4].
         * 🧠 **The Approach:** Engineering a synchronized time-series pipeline [cite: 2] to feed deep sequence models (LSTMs/Transformers) [cite: 3, 5], enabling real-time vehicle state forecasting and instant detection of sudden anomalies like tire lock-ups[cite: 6].
         
-        `Status: Pipeline Sync & Architecture Design ⚡`
+        🚧 *Status: Pipeline Sync & Architecture Design* 🚧
         """)
 
 # 5. Footer
