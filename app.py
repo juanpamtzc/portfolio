@@ -16,8 +16,8 @@ with st.container():
         st.markdown("## Computational Scientist | Mechanical Engineer")
         st.markdown("### Chasing curiosity and building scalable, rigorous computational models along the way.")
         st.write("""
-        __Hi, I'm JP__, a computational scientist and mechanical engineer taking the next steps in my career 
-        after completing my Ph.D. from UT Austin.""")
+        __Hi, I'm JP__ - a computational scientist and mechanical engineer taking the next steps in his career 
+        after completing his Ph.D. from UT Austin.""")
         st.write("""
         This portfolio contains more information about myself, my papers, 
         my interests, and my projects. Feel free to connect and let me know what you think!
