@@ -96,4 +96,4 @@ with st.container():
 
 # 5. Footer
 st.markdown("<br><br>", unsafe_allow_html=True)
-st.caption("© 2024 Juan Pablo Martínez Cordeiro. Built with Python and Streamlit.")
+st.caption("© 2026 Juan Pablo Martínez Cordeiro. Built with Python and Streamlit.")
