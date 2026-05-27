@@ -111,6 +111,38 @@ with st.container():
         # Link directly to the streamlit app
         st.link_button("Launch Live Simulator", "https://red-vs-blue.streamlit.app")
 
+st.divider()
+
+# 4.5 Upcoming Projects Section
+with st.container():
+    st.markdown("### 🚀 In the Pipeline")
+    st.write("A sneak peek at the computational projects currently cooking in my local development environment.")
+    
+    # Create two columns for your upcoming projects
+    pipe_col1, pipe_col2 = st.columns(2, gap="large")
+    
+    with pipe_col1:
+        st.markdown("#### 🌡️ OpenFOAM Thermal Surrogate Model")
+        st.markdown("""
+        **Accelerating heat fin design by replacing heavy CFD loops with rapid machine learning inference.**
+        
+        * ⚙️ **The Challenge:** Traditional geometric optimization of heat dissipation fins requires computationally expensive fluid dynamics iterations in OpenFOAM.
+        * 🧠 **The Approach:** Training a data-driven surrogate model (Neural Network) on a physics-backed dataset to predict thermal profiles in milliseconds.
+        
+        `Status: Architecture Design & Data Collection 🛠️`
+        """)
+        
+    with pipe_col2:
+        st.markdown("#### 🏎️ High-Frequency Telemetry Forecasting")
+        st.markdown("""
+        **Modeling chaotic vehicle sensor streams split-seconds into the future to capture sudden grip loss and system anomalies.**
+        
+        * 📊 **The Challenge:** F1 cars broadcast asynchronous, noisy telemetry across independent channels (Speed, Throttle, Brake, RPM) [cite: 2], closely mirroring the chaotic structure of high-frequency financial market logs[cite: 4].
+        * 🧠 **The Approach:** Engineering a synchronized time-series pipeline [cite: 2] to feed deep sequence models (LSTMs/Transformers) [cite: 3, 5], enabling real-time vehicle state forecasting and instant detection of sudden anomalies like tire lock-ups[cite: 6].
+        
+        `Status: Pipeline Sync & Architecture Design ⚡`
+        """)
+
 # 5. Footer
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.caption("© 2026 Juan Pablo Martínez Cordeiro. Built with Python and Streamlit.")
