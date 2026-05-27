@@ -20,7 +20,10 @@ with st.container():
         after completing his Ph.D. from UT Austin.""")
         st.write("""
         This portfolio contains more information about myself, my papers, 
-        my interests, and my projects. Feel free to connect and let me know what you think!
+        my interests, and my projects.
+        """)
+        st.write("""
+        *__Feel free to connect and let me know what you think!__*
         """)
         
         # Call to Action buttons (Adjusted spacing for 3 buttons)
