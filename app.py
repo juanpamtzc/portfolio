@@ -16,7 +16,7 @@ with st.container():
         st.markdown("## Computational Scientist | Mechanical Engineer")
         st.markdown("### Chasing curiosity and building scalable, rigorous computational models along the way.")
         st.write("""
-        __Hi, I'm Juan Pablo Martínez Cordeiro__, a computational scientist and mechanical engineer taking the next steps in my career 
+        __Hi, I'm JP__, a computational scientist and mechanical engineer taking the next steps in my career 
         after completing my Ph.D. from UT Austin.""")
         st.write("""
         This portfolio contains more information about myself, my papers, 
