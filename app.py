@@ -137,8 +137,8 @@ with st.container():
         st.markdown("""
         **Modeling chaotic vehicle sensor streams split-seconds into the future to capture sudden grip loss and system anomalies.**
         
-        * **The Challenge:** F1 cars broadcast asynchronous, noisy telemetry across independent channels (Speed, Throttle, Brake, RPM) [cite: 2], closely mirroring the chaotic structure of high-frequency financial market logs[cite: 4].
-        * **The Approach:** Engineering a synchronized time-series pipeline [cite: 2] to feed deep sequence models (LSTMs/Transformers) [cite: 3, 5], enabling real-time vehicle state forecasting and instant detection of sudden anomalies like tire lock-ups[cite: 6].
+        * **The Challenge:** F1 cars broadcast asynchronous, noisy telemetry across independent channels (Speed, Throttle, Brake, RPM).
+        * **The Approach:** Engineering a synchronized time-series pipeline [cite: 2] to feed deep sequence models (LSTMs/Transformers), enabling real-time vehicle state forecasting and instant detection of sudden anomalies like tire lock-ups.
         
         🚧 *Status: Pipeline Sync & Architecture Design* 🚧
         """)
