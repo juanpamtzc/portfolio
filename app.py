@@ -130,7 +130,7 @@ with st.container():
         **Accelerating heat fin design by replacing heavy CFD loops with rapid machine learning inference.**
         
         * **The Challenge:** Traditional geometric optimization of heat dissipation fins requires computationally expensive fluid dynamics iterations in OpenFOAM.
-        * **The Approach:** Training a data-driven surrogate model (Neural Network) on a physics-backed dataset to predict thermal profiles in milliseconds.
+        * **The Approach:** Training a data-driven surrogate model on a physics-backed dataset to predict thermal profiles in milliseconds.
         
         🚧 *Status: Architecture Design & Data Collection* 🚧
         """)
@@ -141,7 +141,7 @@ with st.container():
         **Modeling vehicle sensor streams split-seconds into the future to capture sudden grip loss and system anomalies.**
         
         * **The Challenge:** F1 cars broadcast asynchronous, noisy telemetry across independent channels (Speed, Throttle, Brake, RPM).
-        * **The Approach:** Engineering a synchronized time-series pipeline to feed deep sequence models (LSTMs/Transformers), enabling real-time vehicle state forecasting and instant detection of sudden anomalies like tire lock-ups.
+        * **The Approach:** Engineering a synchronized time-series pipeline to feed ML models, enabling real-time vehicle state forecasting and instant detection of sudden anomalies like tire lock-ups.
         
         🚧 *Status: Pipeline Sync & Architecture Design* 🚧
         """)
