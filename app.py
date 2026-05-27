@@ -13,11 +13,11 @@ with st.container():
     col1, col2 = st.columns([3, 1], gap="large")
     
     with col1:
-        st.markdown("# Hi, I'm Juan Pablo Martínez Cordeiro.")
+        st.markdown("# Juan Pablo Martínez Cordeiro | Computational Scientist & Mechanical Engineer")
         st.markdown("### Chasing my curiosity by building scalable, mathematically rigorous computational models.")
         st.write("""
         I am a computational scientist and mechanical engineer taking the next steps in my career 
-        after completing my Ph.D. This portfolio contains more information about myself, my papers, 
+        after completing my Ph.D. from UT Austin. This portfolio contains more information about myself, my papers, 
         my interests, and my projects. Feel free to connect and let me know what you think!
         """)
         
