@@ -40,36 +40,51 @@ st.divider()
 # 3. Core Competencies Section
 with st.container():
     st.markdown("### Technical Expertise")
-    st.write("Bridging the gap between pure mathematics and production-grade software.")
+    st.write("Bridging the gap between mathematical/statistical modeling and high-performance code.")
     
-    skill_col1, skill_col2, skill_col3 = st.columns(3)
+    skill_col1, skill_col2, skill_col3, skill_col4 = st.columns(4)
     
     with skill_col1:
+        st.markdown("#### ⚙️ Engineering")
+        st.markdown("""
+        * Fluid Dynamics
+        * Heat Transfer
+        * Thermodynamics/Stat Mech
+        * Multiscale and Nonlinear FEA/CFD
+        * Nanofluidics/Nanomechanics (MD/DFT)
+        """)
+
+    with skill_col2:
         st.markdown("#### 📐 Mathematics")
         st.markdown("""
-        * Computational Nanofluidics & Statistical Mechanics
         * Numerical Methods
         * Stochastic Modeling
+        * Statistics
+        * Probability
         * Linear Algebra
         """)
         
-    with skill_col2:
-        st.markdown("#### ⚙️ Engineering")
+    with skill_col3:
+        st.markdown("#### 💻 Programming")
         st.markdown("""
-        * Python (Advanced)
-        * Vectorized Compute (`numpy`, `scipy`)
-        * Continuous Integration (GitHub Actions)
-        * Streamlit / Web Dashboards
+        * High-Performance Computing
+        * Python | C | MATLAB | SQL
+        * Vectorization | Parallelization (CUDA)
+        * CI/CD
+        * Machine Learning
         """)
         
-    with skill_col3:
+    with skill_col4:
         st.markdown("#### 📊 Analysis")
         st.markdown("""
-        * Parameter Space Sweeps
-        * Data Visualization (`matplotlib`, `seaborn`)
-        * Hypothesis Testing
         * Statistical Inference
+        * Hypothesis Testing
+        * Model Development/Validation
+        * Time-series Analysis
+        * Spectral Analysis
         """)
+    
+
 
 st.divider()
 
