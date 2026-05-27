@@ -12,7 +12,7 @@ with st.container():
     col1, col2 = st.columns([3, 1], gap="large")
     
     with col1:
-        st.markdown("# Juan Pablo Martínez Cordeiro")
+        st.markdown("# Juan Pablo Martínez Cordeiro, Ph.D.")
         st.markdown("## Computational Scientist | Mechanical Engineer")
         st.markdown("### Chasing curiosity and building scalable, rigorous computational models along the way.")
         st.write("""
