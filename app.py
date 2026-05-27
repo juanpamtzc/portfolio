@@ -2,7 +2,7 @@ import streamlit as st
 
 # 1. Page Configuration
 st.set_page_config(
-    page_title="Juan Pablo Martínez Cordeiro, Ph.D. | Computational Scientist", 
+    page_title="Juan Pablo Martínez Cordeiro, Ph.D. | Computational Scientist & Mechanical Engineer", 
     page_icon="📐", 
     layout="wide",
     initial_sidebar_state="expanded"
@@ -14,7 +14,7 @@ with st.container():
     
     with col1:
         st.markdown("# Hi, I'm Juan Pablo Martínez Cordeiro.")
-        st.markdown("### I chase my curiosity by building scalable, mathematically rigorous computational models.")
+        st.markdown("### Chasing my curiosity by building scalable, mathematically rigorous computational models.")
         st.write("""
         I am a computational scientist and mechanical engineer taking the next steps in my career 
         after completing my Ph.D. This portfolio contains more information about myself, my papers, 
@@ -39,7 +39,7 @@ st.divider()
 
 # 3. Core Competencies Section
 with st.container():
-    st.markdown("### Technical Expertise")
+    st.markdown("### Skills")
     st.write("Bridging the gap between mathematical/statistical modeling and high-performance code.")
     
     skill_col1, skill_col2, skill_col3, skill_col4 = st.columns(4)
