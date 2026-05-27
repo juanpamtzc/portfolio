@@ -126,8 +126,8 @@ with st.container():
         st.markdown("""
         **Accelerating heat fin design by replacing heavy CFD loops with rapid machine learning inference.**
         
-        * ⚙️ **The Challenge:** Traditional geometric optimization of heat dissipation fins requires computationally expensive fluid dynamics iterations in OpenFOAM.
-        * 🧠 **The Approach:** Training a data-driven surrogate model (Neural Network) on a physics-backed dataset to predict thermal profiles in milliseconds.
+        * **The Challenge:** Traditional geometric optimization of heat dissipation fins requires computationally expensive fluid dynamics iterations in OpenFOAM.
+        * **The Approach:** Training a data-driven surrogate model (Neural Network) on a physics-backed dataset to predict thermal profiles in milliseconds.
         
         🚧 *Status: Architecture Design & Data Collection* 🚧
         """)
@@ -137,8 +137,8 @@ with st.container():
         st.markdown("""
         **Modeling chaotic vehicle sensor streams split-seconds into the future to capture sudden grip loss and system anomalies.**
         
-        * 📊 **The Challenge:** F1 cars broadcast asynchronous, noisy telemetry across independent channels (Speed, Throttle, Brake, RPM) [cite: 2], closely mirroring the chaotic structure of high-frequency financial market logs[cite: 4].
-        * 🧠 **The Approach:** Engineering a synchronized time-series pipeline [cite: 2] to feed deep sequence models (LSTMs/Transformers) [cite: 3, 5], enabling real-time vehicle state forecasting and instant detection of sudden anomalies like tire lock-ups[cite: 6].
+        * **The Challenge:** F1 cars broadcast asynchronous, noisy telemetry across independent channels (Speed, Throttle, Brake, RPM) [cite: 2], closely mirroring the chaotic structure of high-frequency financial market logs[cite: 4].
+        * **The Approach:** Engineering a synchronized time-series pipeline [cite: 2] to feed deep sequence models (LSTMs/Transformers) [cite: 3, 5], enabling real-time vehicle state forecasting and instant detection of sudden anomalies like tire lock-ups[cite: 6].
         
         🚧 *Status: Pipeline Sync & Architecture Design* 🚧
         """)
