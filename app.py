@@ -132,8 +132,9 @@ with st.container():
         * **The Challenge:** Traditional geometric optimization of heat dissipation fins requires computationally expensive fluid dynamics iterations in OpenFOAM.
         * **The Approach:** Training a data-driven surrogate model on a physics-backed dataset to predict thermal profiles in milliseconds.
         
-        🚧 *Status: Architecture Design & Data Collection* 🚧
+        🚧 *Status: Running CFD Simulations to Train Surrogate Model* 🚧
         """)
+        # 🚧 *Status: Architecture Design & Data Collection* 🚧
         
     with pipe_col2:
         st.markdown("#### 🏎️ High-Frequency Telemetry Forecasting")
@@ -143,8 +144,9 @@ with st.container():
         * **The Challenge:** F1 cars broadcast asynchronous, noisy telemetry across independent channels (Speed, Throttle, Brake, RPM).
         * **The Approach:** Engineering a synchronized time-series pipeline to feed ML models, enabling real-time vehicle state forecasting and instant detection of sudden anomalies like tire lock-ups.
         
-        🚧 *Status: Pipeline Sync & Architecture Design* 🚧
+        🚧 *Status: Designing Pipeline to Sync Data* 🚧
         """)
+        # 🚧 *Status: Pipeline Sync & Architecture Design* 🚧
     
     with pipe_col3:
         st.markdown("#### 🍋 Simulating Adverse Selection")
@@ -154,8 +156,9 @@ with st.container():
         * **The Challenge:** In markets with asymmetric information, generic or uninformative priors mathematically guarantee expected losses for the buyer over time.
         * **The Approach:** Building a computational probability engine in Python to map market loss distributions and create interactive visualizations of shifting risk surfaces under informed priors.
         
-        🚧 *Status: Engine Dev & Risk Surface Mapping* 🚧
+        🚧 *Status: Finalizing Problem Statement* 🚧
         """)
+        #🚧 *Status: Engine Dev & Risk Surface Mapping* 🚧
 
 # 5. Footer
 st.markdown("<br><br>", unsafe_allow_html=True)
