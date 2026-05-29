@@ -122,7 +122,7 @@ with st.container():
     st.write("A sneak peek at the computational projects currently cooking in my local development environment.")
     
     # Create two columns for your upcoming projects
-    pipe_col1, pipe_col2 = st.columns(2, gap="large")
+    pipe_col1, pipe_col2, pipe_col3 = st.columns(3, gap="large")
     
     with pipe_col1:
         st.markdown("#### 🌡️ OpenFOAM Thermal Surrogate Model")
@@ -144,6 +144,17 @@ with st.container():
         * **The Approach:** Engineering a synchronized time-series pipeline to feed ML models, enabling real-time vehicle state forecasting and instant detection of sudden anomalies like tire lock-ups.
         
         🚧 *Status: Pipeline Sync & Architecture Design* 🚧
+        """)
+    
+    with pipe_col3:
+        st.markdown("#### 🍋 Simulating Adverse Selection")
+        st.markdown("""
+        **Quantifying the 'Market for Lemons' problem and mitigating buyer risk through dynamic Bayesian updates.**
+        
+        * **The Challenge:** In markets with asymmetric information, generic or uninformative priors mathematically guarantee expected losses for the buyer over time.
+        * **The Approach:** Building a computational probability engine in Python to map market loss distributions and create interactive visualizations of shifting risk surfaces under informed priors.
+        
+        🚧 *Status: Engine Dev & Risk Surface Mapping* 🚧
         """)
 
 # 5. Footer
