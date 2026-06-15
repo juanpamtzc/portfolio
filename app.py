@@ -114,7 +114,7 @@ with st.container():
         # Link directly to the streamlit app
         st.link_button("Launch Live Simulator", "https://red-vs-blue.streamlit.app")
 
-st.divider()
+#st.divider()
 
 # --- Project 2: Tactical Scouting Engine ---
 with st.container():
@@ -125,7 +125,7 @@ with st.container():
         st.markdown("""
         **What happens when you strip a player down to pure numbers and ask who else plays the same way?**
  
-        This engine compresses player performance profiles into a latent space using PCA and Variational Autoencoders, then surfaces the most statistically similar replacements across leagues and positions. No reputation, no price tag - just the geometry of how a player actually plays.
+        This engine compresses player performance profiles into a latent space using PCA and Variational Autoencoders, then surfaces the most statistically similar replacements across positions.
  
         *Think you know who's truly irreplaceable? Think you could spot the next hidden gem before the market does? Put your inner scout to the test!*
         """)
