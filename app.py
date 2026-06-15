@@ -120,18 +120,16 @@ with st.container():
 with st.container():
     proj_col3, proj_col4 = st.columns([2, 1], gap="medium")
  
-    with proj_col3:
+    with proj_col4:
         st.markdown("#### ⚽ Tactical Scouting Engine: Latent-Space Player Replacement")
         st.markdown("""
-        **What happens when you strip a player down to pure numbers and ask who else plays the same way?**
- 
-        This engine compresses player performance profiles into a latent space using PCA and Variational Autoencoders, then surfaces the most statistically similar replacements across positions.
+        **What happens when you strip a player down to pure numbers and ask who else plays the same way?** This engine compresses player performance profiles into a latent space using PCA and Variational Autoencoders, then surfaces the most statistically similar replacements across positions.
  
         *Think you know who's truly irreplaceable? Think you could spot the next hidden gem before the market does? Put your inner scout to the test!*
         """)
         st.link_button("🔍 Launch Scouting Engine", "https://futbol-id.streamlit.app")
  
-    with proj_col4:
+    with proj_col3:
         st.image("assets/football_scout.png", use_container_width=True)
  
 st.divider()
