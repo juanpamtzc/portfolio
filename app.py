@@ -118,7 +118,7 @@ with st.container():
 
 # --- Project 2: Tactical Scouting Engine ---
 with st.container():
-    proj_col3, proj_col4 = st.columns([2, 1], gap="medium")
+    proj_col3, proj_col4 = st.columns([1, 2], gap="medium")
  
     with proj_col4:
         st.markdown("#### ⚽ Tactical Scouting Engine: Latent-Space Player Replacement")
