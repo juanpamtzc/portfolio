@@ -127,7 +127,7 @@ with st.container():
  
         *Think you know who's truly irreplaceable? Think you could spot the next hidden gem before the market does? Put your inner scout to the test!*
         """)
-        st.link_button("🔍 Launch Scouting Engine", "https://futbol-id.streamlit.app")
+        st.link_button("Launch Scouting Engine", "https://futbol-id.streamlit.app")
  
     with proj_col3:
         st.image("assets/football_scout.png", use_container_width=True)
