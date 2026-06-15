@@ -125,7 +125,7 @@ with st.container():
         st.markdown("""
         **What happens when you strip a player down to pure numbers and ask who else plays the same way?** This engine compresses player performance profiles into a latent space to find suitable replacements.
  
-        *Think you know who's truly irreplaceable? Think you could spot the next hidden gem before the market does? Put your inner scout to the test!*
+        *Think you know who's truly irreplaceable? Put your inner scout to the test!*
         """)
         st.link_button("Launch Scouting Engine", "https://futbol-id.streamlit.app")
  
