@@ -132,7 +132,7 @@ with st.container():
         st.link_button("🔍 Launch Scouting Engine", "https://futbol-id.streamlit.app")
  
     with proj_col4:
-        st.image("assets/scouting_viz.png", use_container_width=True)
+        st.image("assets/football_scout.png", use_container_width=True)
  
 st.divider()
 
