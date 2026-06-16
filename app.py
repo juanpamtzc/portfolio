@@ -37,7 +37,7 @@ with st.container():
             st.link_button("🎓 Google Scholar", "https://scholar.google.com/citations?user=UUroaHgAAAAJ&hl=en", use_container_width=True)
         with cta_col4:
             # Added Top-Level Agent Access
-            st.link_button("🤖 Chat with my AI Agent", "https://your-agent-url.streamlit.app", use_container_width=True)
+            st.link_button("🤖 Chat with my AI Agent", "https://jp-portfolio-agent.streamlit.app", use_container_width=True)
 
     with col2:
         # Pulls the image directly from your GitHub repository folder
