@@ -27,7 +27,7 @@ with st.container():
         """)
         
         # Call to Action buttons (Adjusted spacing for 3 buttons)
-        cta_col1, cta_col2, cta_col3, cta_col4 = st.columns([1.2, 1.2, 1.5, 2])
+        cta_col1, cta_col2, cta_col3, cta_col4 = st.columns([1.2, 1.2, 1.2, 1.2])
         with cta_col1:
             st.link_button("👔 LinkedIn", "https://www.linkedin.com/in/jpmc-143912-/", use_container_width=True)
         with cta_col2:
