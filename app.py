@@ -137,6 +137,24 @@ with st.container():
  
 st.divider()
 
+# --- Project 3: Portfolio Fine-Tuned LLM Agent ---
+with st.container():
+    proj_col3, proj_col4 = st.columns([1, 2], gap="medium")
+ 
+    with proj_col4:
+        st.markdown("#### Portfolio Fine-Tuned LLM Agent")
+        st.markdown("""
+        **Curious about my portfolio or my profile?** This app shows the difference between a generic LLM agent and a personalized one fine-tuned to me and my profile.
+ 
+        *Want to know more about me? See how my fine-tuned specialist agent compares with a generic LLM agent!*
+        """)
+        st.link_button("Launch AI Agent", "https://jp-portfolio-agent.streamlit.app")
+ 
+    with proj_col3:
+        st.image("assets/football_scout.png", use_container_width=True)
+ 
+st.divider()
+
 # 4.5 Upcoming Projects Section
 with st.container():
     st.markdown("### In Progress...")
