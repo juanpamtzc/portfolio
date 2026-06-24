@@ -7,7 +7,10 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# 2. Hero Section (The Hook)
+# 1.1 Language Toggle
+lang = st.sidebar.radio("Language / Idioma", ["en", "es"], horizontal=True)
+
+# 2. Hook
 with st.container():
     col1, col2 = st.columns([3, 1], gap="large")
     
