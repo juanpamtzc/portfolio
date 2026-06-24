@@ -135,7 +135,7 @@ with st.container():
     with proj_col3:
         st.image("assets/football_scout.png", use_container_width=True)
  
-st.divider()
+#st.divider()
 
 # --- Project 3: Portfolio Fine-Tuned LLM Agent ---
 with st.container():
