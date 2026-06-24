@@ -171,7 +171,7 @@ with st.container():
         * **The Challenge:** Traditional geometric optimization of heat dissipation fins requires computationally expensive fluid dynamics iterations in OpenFOAM.
         * **The Approach:** Training a data-driven surrogate model on a physics-backed dataset to predict thermal profiles in milliseconds.
         
-        🚧 *Status: Running CFD Simulations to Train Surrogate Model* 🚧
+        🚧 *Status: Automatizing Simulation Runs for Parameter Sweeps* 🚧
         """)
         # 🚧 *Status: Architecture Design & Data Collection* 🚧
         
@@ -199,7 +199,9 @@ with st.container():
         """)
         #🚧 *Status: Engine Dev & Risk Surface Mapping* 🚧
 
-# 4.5 Personal Projects and Hobbies
+
+st.divider()
+# 4.6 Personal Projects and Hobbies
 with st.container():
     st.markdown("### Projects Related to my Personal Interests")
     st.write("Life would be boring if it were just work. Thankfully I have developed a great repertoir of interests, hobbies, and things I'm passionate about!")
@@ -212,7 +214,7 @@ with st.container():
         st.markdown("""
         **Demonstrating River Plate's greatness one story at a time.**
         
-        * **First episode will be released soon on Spotify! Keep in touch for more details!**.
+        * **First episode will be released soon on Spotify! Keep in touch for more details!**
         * The pilot will cover the fascinating story of one of the first legends of professional soccer: **Bernabé Ferreyra**
         """)
         # 🚧 *Status: Architecture Design & Data Collection* 🚧
