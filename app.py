@@ -151,7 +151,7 @@ with st.container():
         st.link_button("Launch AI Agent", "https://jp-portfolio-agent.streamlit.app")
  
     with proj_col3:
-        st.image("assets/football_scout.png", use_container_width=True)
+        st.image("assets/fine-tuned_llm.png", use_container_width=True)
  
 st.divider()
 
