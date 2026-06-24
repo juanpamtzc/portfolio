@@ -2,7 +2,7 @@ import streamlit as st
 
 # 1. Page Configuration
 st.set_page_config(
-    page_title="JP Martínez Cordeiro | Computational Scientist & Mechanical Engineer", 
+    page_title="JP Martínez Cordeiro | Portfolio", 
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -217,8 +217,6 @@ with st.container():
         * **First episode will be released soon on Spotify! Keep in touch for more details!**
         * The pilot will cover the fascinating story of one of the first legends of professional soccer: **Bernabé Ferreyra**
         """)
-        # 🚧 *Status: Architecture Design & Data Collection* 🚧
-    
 
 # 5. Footer
 st.markdown("<br><br>", unsafe_allow_html=True)
