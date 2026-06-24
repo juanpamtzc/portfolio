@@ -19,7 +19,7 @@ with st.container():
     
     with col1:
         st.markdown("# Juan Pablo Martínez Cordeiro, Ph.D.")
-        st.markdown("## Computational Scientist | Mechanical Engineer")
+        st.markdown(t("role"))
         st.markdown("### Chasing curiosity and building scalable, rigorous computational models along the way.")
         st.write("""
         __Hi, I'm JP__ - a computational scientist and mechanical engineer taking the next steps in his career 
