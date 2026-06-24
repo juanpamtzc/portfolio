@@ -199,6 +199,25 @@ with st.container():
         """)
         #🚧 *Status: Engine Dev & Risk Surface Mapping* 🚧
 
+# 4.5 Personal Projects and Hobbies
+with st.container():
+    st.markdown("### Projects Related to my Personal Interests")
+    st.write("Life would be boring if it were just work. Thankfully I have developed a great repertoir of interests, hobbies, and things I'm passionate about!")
+    
+    # Create two columns for your upcoming projects
+    pipe_col1, pipe_col2, pipe_col3 = st.columns(3, gap="large")
+    
+    with pipe_col1:
+        st.markdown("#### Ecos de Núñez: A River Plate Narrative Historical Podcast")
+        st.markdown("""
+        **Demonstrating River Plate's greatness one story at a time.**
+        
+        * **First episode will be released soon on Spotify! Keep in touch for more details!**.
+        * The pilot will cover the fascinating story of one of the first legends of professional soccer: **Bernabé Ferreyra**
+        """)
+        # 🚧 *Status: Architecture Design & Data Collection* 🚧
+    
+
 # 5. Footer
 st.markdown("<br><br>", unsafe_allow_html=True)
 st.caption("© 2026 Juan Pablo Martínez Cordeiro. Built with Python and Streamlit.")
