@@ -126,7 +126,7 @@ TEXT = {
         "intro_button_1": "👔 LinkedIn",
         "intro_button_2": "💻 GitHub",
         "intro_button_3": "🎓 Google Scholar",
-        "intro_button_4": "🤖 Chatea con mi Agente de IA",
+        "intro_button_4": "🤖 Mi Agente de IA",
         
         "skills_header": "### Habilidades",
         "skills_sub": "Cerrando la brecha entre el modelado matemático/estadístico y el código de alto rendimiento.",
