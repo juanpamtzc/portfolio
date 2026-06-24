@@ -107,7 +107,7 @@ with st.container():
         st.image("assets/red_vs_blue_viz.png", use_container_width=True)
         
     with proj_col2:
-        st.markdown("#### 🔴 🔵 Blue vs. Red: Expected Utility Optimizer")
+        st.markdown("#### Game Theory Expected Utility Optimizer")
         st.markdown("""
         **A late-night bachelor party thought experiment, formalized into a rigorous computational model.** This interactive dashboard computes expected utility under existential risk, balancing self-preservation against the greater good. 
         
@@ -124,7 +124,7 @@ with st.container():
     proj_col3, proj_col4 = st.columns([1, 2], gap="medium")
  
     with proj_col4:
-        st.markdown("#### ⚽ Tactical Scouting Engine: Latent-Space Player Replacement")
+        st.markdown("#### Tactical Scouting Engine: Latent-Space Player Replacement")
         st.markdown("""
         **What happens when you strip a player down to pure numbers and ask who else plays the same way?** This engine compresses player performance profiles into a latent space to find suitable replacements.
  
@@ -146,7 +146,7 @@ with st.container():
     pipe_col1, pipe_col2, pipe_col3 = st.columns(3, gap="large")
     
     with pipe_col1:
-        st.markdown("#### 🌡️ OpenFOAM Thermal Surrogate Model")
+        st.markdown("#### OpenFOAM Thermal Surrogate Model")
         st.markdown("""
         **Accelerating heat fin design by replacing heavy CFD loops with rapid machine learning inference.**
         
@@ -158,7 +158,7 @@ with st.container():
         # 🚧 *Status: Architecture Design & Data Collection* 🚧
         
     with pipe_col2:
-        st.markdown("#### 🏎️ High-Frequency Telemetry Forecasting")
+        st.markdown("#### High-Frequency Telemetry Forecasting")
         st.markdown("""
         **Modeling vehicle sensor streams split-seconds into the future to capture sudden grip loss and system anomalies.**
         
@@ -170,7 +170,7 @@ with st.container():
         # 🚧 *Status: Pipeline Sync & Architecture Design* 🚧
     
     with pipe_col3:
-        st.markdown("#### 🍋 Simulating Adverse Selection")
+        st.markdown("#### Simulating Adverse Selection")
         st.markdown("""
         **Quantifying the 'Market for Lemons' problem and mitigating buyer risk through dynamic Bayesian updates.**
         
