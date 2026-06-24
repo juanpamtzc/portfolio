@@ -1,4 +1,5 @@
 import streamlit as st
+from translations import TEXT
 
 # 1. Page Configuration
 st.set_page_config(
@@ -9,6 +10,8 @@ st.set_page_config(
 
 # 1.1 Language Toggle
 lang = st.sidebar.radio("Language / Idioma", ["en", "es"], horizontal=True)
+def t(key):
+    return TEXT[lang].get(key, f"Missing: {key}")
 
 # 2. Hook
 with st.container():
