@@ -117,9 +117,10 @@ TEXT = {
 
     },
     "es": {
-        "role": "Científico Computacional | Ingeniero Mecánico",
-        "hook": "Persiguiendo la curiosidad y construyendo modelos computacionales rigurosos y escalables en el camino.",
-        "intro_1": "Hola, soy JP - un científico computacional e ingeniero mecánico dando los siguientes pasos en su carrera tras completar su doctorado en UT Austin.",
+        "role": "## Científico Computacional | Ingeniero Mecánico",
+        "hook": "### Persiguiendo la curiosidad y construyendo modelos computacionales rigurosos y escalables en el camino.",
+        "intro_1": """
+        __Hola, soy JP__ - un científico computacional e ingeniero mecánico dando los siguientes pasos en su carrera tras completar su doctorado en UT Austin.""",
         "intro_2": "Este portafolio contiene más información sobre mí, mis publicaciones, mis intereses y mis proyectos.",
         "intro_3": "*__¡No dudes en contactarme y contarme qué te parece!__*",
         "intro_button_1": "👔 LinkedIn",
