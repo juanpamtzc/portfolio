@@ -111,7 +111,7 @@ with st.container():
         st.markdown("""
         **A late-night bachelor party thought experiment, formalized into a rigorous computational model.** This interactive dashboard computes expected utility under existential risk, balancing self-preservation against the greater good. 
         
-        *Try it out! Does the mathematical optimum match your moral intuition?*
+        *Does the mathematical optimum match your moral intuition? Try it out!*
         """)
         
         # Link directly to the streamlit app
