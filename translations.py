@@ -118,7 +118,7 @@ TEXT = {
     },
     "es": {
         "role": "## Científico Computacional | Ingeniero Mecánico",
-        "hook": "### Persiguiendo la curiosidad y construyendo modelos computacionales rigurosos y escalables en el camino.",
+        "hook": "### Persiguiendo la curiosidad y construyendo modelos computacionales rigurosos y escalables a la vez.",
         "intro_1": """
         __Hola, soy JP__ - un científico computacional e ingeniero mecánico dando los siguientes pasos en su carrera tras completar su doctorado en UT Austin.""",
         "intro_2": "Este portafolio contiene más información sobre mí, mis publicaciones, mis intereses y mis proyectos.",
@@ -129,7 +129,7 @@ TEXT = {
         "intro_button_4": "🤖 Mi Agente de IA",
         
         "skills_header": "### Habilidades",
-        "skills_sub": "Cerrando la brecha entre el modelado matemático/estadístico y el código de alto rendimiento.",
+        "skills_sub": "Cerrando la brecha entre los modelos matemáticos/estadísticos y el código de alto rendimiento.",
         
         "skill1_header": "#### ⚙️ Ingeniería",
         "skill1_contents": """
@@ -179,9 +179,9 @@ TEXT = {
         
         "feat2_header": "#### Motor de Scouting Táctico: Reemplazo de Jugadores en Espacio Latente",
         "feat2_text": """
-        **¿Qué pasa cuando reduces a un jugador a puros números y preguntas quién más juega de la misma manera?** Este motor comprime los perfiles de rendimiento de los jugadores en un espacio latente para encontrar reemplazos adecuados.
+        **¿Qué pasa cuando reduces a un jugador a sus estadísticas y preguntas quién más juega de la misma manera?** Esta herramienta comprime los perfiles de rendimiento de los jugadores en un espacio latente para encontrar reemplazos adecuados.
  
-        *¿Crees que sabes quién es verdaderamente irremplazable? ¡Pon a prueba al scout que llevas dentro!*
+        *¿Crees saber quién es verdaderamente irremplazable? ¡Pon a prueba al scout que llevas dentro!*
         """,
         "feat2_button": "Lanzar Motor de Scouting",
         
@@ -194,14 +194,14 @@ TEXT = {
         "feat3_button": "Lanzar Agente de IA",
 
         "future_header": "### En Progreso...",
-        "future_text": "Un vistazo a los proyectos computacionales que se están cocinando actualmente en mi entorno de desarrollo local.",
+        "future_text": "Un vistazo a los proyectos computacionales que actualmente estoy desarrollando.",
         
         "fut1_header": "#### Modelo Sustituto Térmico en OpenFOAM",
         "fut1_text": """
-        **Acelerando el diseño de aletas de disipación térmica al reemplazar pesados bucles de CFD con inferencia rápida de machine learning.**
+        **Aceleración del diseño de aletas de disipación térmica al reemplazar pesados bucles de CFD con inferencia rápida de machine learning.**
         
         * **El Desafío:** La optimización geométrica tradicional de aletas de disipación de calor requiere iteraciones de dinámica de fluidos computacionalmente costosas en OpenFOAM.
-        * **El Enfoque:** Entrenar un modelo sustituto (surrogate model) basado en datos sobre un dataset respaldado por la física para predecir perfiles térmicos en milisegundos.
+        * **El Enfoque:** Entrenar un modelo sustituto (surrogate model) sobre una base de datos respaldada por la física para predecir perfiles térmicos en milisegundos.
         
         🚧 *Estado: Automatizando ejecuciones de simulación para barridos de parámetros* 🚧
         """,
