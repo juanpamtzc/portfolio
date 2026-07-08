@@ -121,7 +121,7 @@ with st.container():
         st.link_button(t("feat4_button"), "https://thermal-surrogate.streamlit.app")
  
     with proj_col3:
-        st.image("assets/fine-tuned_llm.png", use_container_width=True)
+        st.image("assets/thermal_surrogate.png", use_container_width=True)
  
 st.divider()
 
