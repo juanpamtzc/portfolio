@@ -75,19 +75,21 @@ TEXT = {
         """,
         "feat3_button": "Launch AI Agent",
 
+        "feat4_header": "#### SciML Multi-Physics Thermal Surrogate",
+        "feat4_text": """
+        **Curious how AI is disrupting traditional engineering?** This app shows the difference between computationally expensive OpenFOAM CFD solvers and a lightning-fast Fourier Neural Operator (FNO).
+ 
+        *Want to see deep learning solve complex physics? Adjust the live parameters and watch the surrogate predict fluid velocity and conjugate heat transfer in milliseconds!*
+        """,
+        "feat4_button": "Launch Surrogate Engine",
+
+        
+
         "future_header": "### In Progress...",
         "future_text": "A sneak peek at the computational projects currently cooking in my local development environment.",
-        "fut1_header": "#### OpenFOAM Thermal Surrogate Model",
+        
+        "fut1_header": "#### High-Frequency Telemetry Forecasting",
         "fut1_text": """
-        **Accelerating heat fin design by replacing heavy CFD loops with rapid machine learning inference.**
-        
-        * **The Challenge:** Traditional geometric optimization of heat dissipation fins requires computationally expensive fluid dynamics iterations in OpenFOAM.
-        * **The Approach:** Training a data-driven surrogate model on a physics-backed dataset to predict thermal profiles in milliseconds.
-        
-        🚧 *Status: Automatizing Simulation Runs for Parameter Sweeps* 🚧
-        """,
-        "fut2_header": "#### High-Frequency Telemetry Forecasting",
-        "fut2_text": """
         **Modeling vehicle sensor streams split-seconds into the future to capture sudden grip loss and system anomalies.**
         
         * **The Challenge:** F1 cars broadcast asynchronous, noisy telemetry across independent channels (Speed, Throttle, Brake, RPM).
@@ -95,8 +97,8 @@ TEXT = {
         
         🚧 *Status: Designing Pipeline to Sync Data* 🚧
         """,
-        "fut3_header": "#### Simulating Adverse Selection",
-        "fut3_text": """
+        "fut2_header": "#### Simulating Adverse Selection",
+        "fut2_text": """
         **Quantifying the 'Market for Lemons' problem and mitigating buyer risk through dynamic Bayesian updates.**
         
         * **The Challenge:** In markets with asymmetric information, generic or uninformative priors mathematically guarantee expected losses for the buyer over time.
@@ -193,21 +195,19 @@ TEXT = {
         """,
         "feat3_button": "Lanzar Agente de IA",
 
+        "feat4_header": "#### Modelo Sustituto Térmico Multifísico SciML",
+        "feat4_text": """
+        **¿Te da curiosidad ver cómo la IA está revolucionando la ingeniería tradicional?** Esta aplicación muestra la diferencia entre los solvers de CFD de OpenFOAM, que son computacionalmente costosos, y un Operador Neuronal de Fourier (FNO) ultrarrápido.
+ 
+        *¿Quieres ver al deep learning resolver física compleja? ¡Ajusta los parámetros en tiempo real y observa cómo el modelo sustituto predice la velocidad del fluido y la transferencia de calor conjugada en milisegundos!*
+        """,
+        "feat4_button": "Lanzar Motor Sustituto",
+
         "future_header": "### En Progreso...",
         "future_text": "Un vistazo a los proyectos computacionales que actualmente estoy desarrollando.",
         
-        "fut1_header": "#### Modelo Sustituto Térmico en OpenFOAM",
+        "fut1_header": "#### Pronóstico de Telemetría de Alta Frecuencia",
         "fut1_text": """
-        **Aceleración del diseño de aletas de disipación térmica al reemplazar pesados bucles de CFD con inferencia rápida de machine learning.**
-        
-        * **El Desafío:** La optimización geométrica tradicional de aletas de disipación de calor requiere iteraciones de dinámica de fluidos computacionalmente costosas en OpenFOAM.
-        * **El Enfoque:** Entrenar un modelo sustituto (surrogate model) sobre una base de datos respaldada por la física para predecir perfiles térmicos en milisegundos.
-        
-        🚧 *Estado: Automatizando ejecuciones de simulación para barridos de parámetros* 🚧
-        """,
-        
-        "fut2_header": "#### Pronóstico de Telemetría de Alta Frecuencia",
-        "fut2_text": """
         **Modelando flujos de sensores de vehículos fracciones de segundo hacia el futuro para capturar pérdidas repentinas de agarre y anomalías del sistema.**
         
         * **El Desafío:** Los autos de F1 transmiten telemetría asíncrona y ruidosa a través de canales independientes (Velocidad, Acelerador, Freno, RPM).
@@ -216,8 +216,8 @@ TEXT = {
         🚧 *Estado: Diseñando el pipeline para sincronizar datos* 🚧
         """,
         
-        "fut3_header": "#### Simulando Selección Adversa",
-        "fut3_text": """
+        "fut2_header": "#### Simulando Selección Adversa",
+        "fut2_text": """
         **Cuantificando el problema del 'Mercado de Limones' y mitigando el riesgo del comprador a través de actualizaciones bayesianas dinámicas.**
         
         * **El Desafío:** En mercados con información asimétrica, los priors genéricos o no informativos garantizan matemáticamente pérdidas esperadas para el comprador a lo largo del tiempo.
