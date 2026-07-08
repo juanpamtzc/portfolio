@@ -106,6 +106,11 @@ TEXT = {
         
         🚧 *Status: Finalizing Problem Statement* 🚧
         """,
+
+        "fut3_header": " ",
+        "fut3_text": """
+         
+        """,
         
         "personal_header": "### Projects Related to my Personal Interests",
         "personal_text": "Life would be boring if it were just work. Thankfully I have developed a great repertoir of interests, hobbies, and things I'm passionate about!",
@@ -224,6 +229,11 @@ TEXT = {
         * **El Enfoque:** Construir un motor de probabilidad computacional en Python para mapear las distribuciones de pérdida del mercado y crear visualizaciones interactivas de las superficies de riesgo cambiantes bajo priors informados.
         
         🚧 *Estado: Finalizando la definición del problema* 🚧
+        """,
+
+        "fut3_header": " ",
+        "fut3_text": """
+         
         """,
         
         "personal_header": "### Proyectos Relacionados con mis Intereses Personales",
