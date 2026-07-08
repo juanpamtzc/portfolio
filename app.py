@@ -110,6 +110,18 @@ with st.container():
  
     with proj_col3:
         st.image("assets/fine-tuned_llm.png", use_container_width=True)
+
+# --- Project 4: Thermal Surrogate ---
+with st.container():
+    proj_col3, proj_col4 = st.columns([1, 2], gap="medium")
+ 
+    with proj_col4:
+        st.markdown(t("feat4_header"))
+        st.markdown(t("feat4_text"))
+        st.link_button(t("feat4_button"), "https://thermal-surrogate.streamlit.app")
+ 
+    with proj_col3:
+        st.image("assets/fine-tuned_llm.png", use_container_width=True)
  
 st.divider()
 
