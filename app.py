@@ -125,6 +125,20 @@ with st.container():
  
 st.divider()
 
+# --- Project 5: Hex Player ---
+with st.container():
+    proj_col3, proj_col4 = st.columns([1, 2], gap="medium")
+ 
+    with proj_col4:
+        st.markdown(t("feat5_header"))
+        st.markdown(t("feat5_text"))
+        st.link_button(t("feat5_button"), "https://hex-neural-engine.streamlit.app")
+ 
+    with proj_col3:
+        st.image("assets/hex_player.png", use_container_width=True)
+ 
+st.divider()
+
 # 4.5 Upcoming Projects Section
 with st.container():
     st.markdown(t("future_header"))

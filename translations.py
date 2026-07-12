@@ -83,6 +83,14 @@ TEXT = {
         """,
         "feat4_button": "Launch Surrogate Engine",
 
+        "feat5_header": "#### Reinforcement Learning Hex Player",
+        "feat5_text": """
+        **Curious how machines learn complex spatial strategy from scratch?** This app demonstrates the leap from purely random play to deep strategic mastery using an AlphaZero-style neural engine.
+    
+        *Think you can beat the AI? Step into the Hex Arena and find out!*
+        """,
+        "feat5_button": "Enter the Hex Arena",
+
         
 
         "future_header": "### In Progress...",
@@ -207,6 +215,14 @@ TEXT = {
         *¿Quieres ver al deep learning resolver física compleja? ¡Ajusta los parámetros en tiempo real y observa cómo el modelo sustituto predice la velocidad del fluido y la transferencia de calor conjugada en milisegundos!*
         """,
         "feat4_button": "Lanzar Motor Sustituto",
+
+        "feat5_header": "#### Jugador de Hex con Aprendizaje por Refuerzo",
+        "feat5_text": """
+        **¿Tienes curiosidad de cómo las máquinas aprenden estrategias espaciales complejas desde cero?** Esta aplicación demuestra el salto desde el juego puramente aleatorio hacia un profundo dominio estratégico utilizando un motor neuronal al estilo AlphaZero.
+
+        *¿Crees que puedes vencer a la IA? ¡Entra a la Arena de Hex y descúbrelo!*
+        """,
+        "feat5_button": "Entrar a la Arena de Hex",
 
         "future_header": "### En Progreso...",
         "future_text": "Un vistazo a los proyectos computacionales que actualmente estoy desarrollando.",
