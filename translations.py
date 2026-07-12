@@ -87,7 +87,7 @@ TEXT = {
         "feat5_text": """
         **Think you know how machines can learn from experience?** This app demonstrates the leap from purely random play to deep strategic mastery using an AlphaZero-style neural engine.
     
-        *Feeling confident at Hex? Step into the Hex Arena and find out!*
+        *Feeling confident at Hex? Step into the Hex Arena and try to beat the AI!*
         """,
         "feat5_button": "Enter the Hex Arena",
 
