@@ -85,7 +85,7 @@ TEXT = {
 
         "feat5_header": "#### Reinforcement Learning Hex Player",
         "feat5_text": """
-        **Have you ever wondered how machines can learn from experience?** This app demonstrates the leap from purely random play to deep strategic mastery using an AlphaZero-style neural engine.
+        **Think you know how machines can learn from experience?** This app demonstrates the leap from purely random play to deep strategic mastery using an AlphaZero-style neural engine.
     
         *Think you can beat the AI? Step into the Hex Arena and find out!*
         """,
