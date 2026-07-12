@@ -135,7 +135,7 @@ with st.container():
         st.link_button(t("feat5_button"), "https://hex-neural-engine.streamlit.app")
  
     with proj_col3:
-        st.image("assets/hex_player.png", use_container_width=True)
+        st.image("assets/hex-player.png", use_container_width=True)
  
 st.divider()
 
