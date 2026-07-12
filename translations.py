@@ -79,7 +79,7 @@ TEXT = {
         "feat4_text": """
         **Ever wondered how AI is disrupting traditional engineering?** This app shows the difference between computationally expensive OpenFOAM CFD solvers and a lightning-fast Fourier Neural Operator (FNO).
  
-        *Want to see deep learning solve complex physics? Adjust the live parameters and watch the surrogate predict fluid velocity and conjugate heat transfer in milliseconds!*
+        *Want to see deep learning solve complex physics? Watch the surrogate predict fluid velocity and temperature in milliseconds!*
         """,
         "feat4_button": "Launch Surrogate Engine",
 
