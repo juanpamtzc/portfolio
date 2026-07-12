@@ -122,8 +122,6 @@ with st.container():
  
     with proj_col3:
         st.image("assets/thermal_surrogate.png", use_container_width=True)
- 
-st.divider()
 
 # --- Project 5: Hex Player ---
 with st.container():
